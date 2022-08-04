@@ -1,0 +1,99 @@
+html{
+    background: url("../iconos/fondo.png") no-repeat;
+	background-size: cover;
+    min-height: 100%;
+}
+
+body{
+	background-color: transparent;
+}
+
+label{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#registration-form{
+	max-width: 800px;
+	margin: 50px auto;
+}
+
+#registration-form .image{
+	float:left;
+	background-image: url("../iconos/inventario.jpg");
+	height: 500px;
+	width: 50%;
+	background-size:cover;
+	background-position: 75%;
+}
+
+
+
+#registration-form .frm{
+	float:right;
+	height: 500px;
+    width: 50%;
+    min-width: 250px;
+    padding: 0 45px;
+    background-size: 100% 100%;
+    background-color: white;
+}
+
+#registration-form h2{
+	font-size: 32x;
+	margin-top: 24px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid black;
+}
+
+#registration-form .form-control{
+	width: 90%;
+	padding: 10px 20px;
+	height: auto;
+}
+
+#registration-form .form-group{
+	margin-top: 10px;
+	
+}
+
+
+#registration-form .btn{
+	margin-top: 18px;
+	width: 90%;
+}
+
+@media screen and (max-width: 700px){
+	#registration-form .image{
+		width: 30%;
+	    background-position: 60%;
+	}
+
+	#registration-form .frm{
+		width: 70%;
+	}
+
+	#registration-form .form-control{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	#registration-form .image{
+		display: none;
+	}
+
+	#registration-form .frm{
+		width: 100%;
+	}
+
+	#registration-form h2{
+		text-align: center;
+	}
+
+	#registration-form .btn{
+		width: 100%;
+		margin-top: 20px;
+	}
+}
